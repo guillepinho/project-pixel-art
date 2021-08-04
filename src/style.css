@@ -1,0 +1,62 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-image: url('https://www.sonicstadium.org/wp-content/uploads/2013/09/bg.jpg');
+  background-size: 150rem;
+  background-repeat: no-repeat;
+}
+
+.new-block {
+  text-align: center;
+}
+
+.color {
+  display: inline-block;
+  padding: 30px;
+  width: 15px;
+  border: black solid 1px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightsalmon {
+  background-color: lightsalmon;
+}
+
+#pixel-board {
+  display: table;
+  border: black solid 1px;
+}
+
+.borderBlack {
+  border: black solid 1px;
+}
+
+.column {
+  display: table-row;
+  height: 40px;
+  width: 40px;
+}
+
+.pixel {
+  display: table-cell;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+
+#clear-board {
+  margin: 10px;
+}
